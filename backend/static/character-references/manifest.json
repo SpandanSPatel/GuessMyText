@@ -1,0 +1,1013 @@
+{
+  "metadata": {
+    "total_classes": 67,
+    "categories": {
+      "digit": 10,
+      "uppercase": 26,
+      "lowercase": 26,
+      "operator": 5
+    },
+    "description": "Reference images manifest for GuessMyText 67-class handwritten dataset.",
+    "total_reference_images": 79
+  },
+  "characters": {
+    "0": {
+      "id": "0",
+      "character": "0",
+      "name": "Digit 0",
+      "category": "digit",
+      "folder": "digits/0",
+      "images": [
+        {
+          "path": "digits/0/4.png",
+          "label": "Sample #4",
+          "source_number": 4
+        }
+      ]
+    },
+    "1": {
+      "id": "1",
+      "character": "1",
+      "name": "Digit 1",
+      "category": "digit",
+      "folder": "digits/1",
+      "images": [
+        {
+          "path": "digits/1/128.png",
+          "label": "Sample #128",
+          "source_number": 128
+        },
+        {
+          "path": "digits/1/208.png",
+          "label": "Sample #208",
+          "source_number": 208
+        }
+      ]
+    },
+    "2": {
+      "id": "2",
+      "character": "2",
+      "name": "Digit 2",
+      "category": "digit",
+      "folder": "digits/2",
+      "images": [
+        {
+          "path": "digits/2/115.png",
+          "label": "Sample #115",
+          "source_number": 115
+        }
+      ]
+    },
+    "3": {
+      "id": "3",
+      "character": "3",
+      "name": "Digit 3",
+      "category": "digit",
+      "folder": "digits/3",
+      "images": [
+        {
+          "path": "digits/3/127.png",
+          "label": "Sample #127",
+          "source_number": 127
+        }
+      ]
+    },
+    "4": {
+      "id": "4",
+      "character": "4",
+      "name": "Digit 4",
+      "category": "digit",
+      "folder": "digits/4",
+      "images": [
+        {
+          "path": "digits/4/110.png",
+          "label": "Sample #110",
+          "source_number": 110
+        },
+        {
+          "path": "digits/4/17.png",
+          "label": "Sample #17",
+          "source_number": 17
+        }
+      ]
+    },
+    "5": {
+      "id": "5",
+      "character": "5",
+      "name": "Digit 5",
+      "category": "digit",
+      "folder": "digits/5",
+      "images": [
+        {
+          "path": "digits/5/109.png",
+          "label": "Sample #109",
+          "source_number": 109
+        }
+      ]
+    },
+    "6": {
+      "id": "6",
+      "character": "6",
+      "name": "Digit 6",
+      "category": "digit",
+      "folder": "digits/6",
+      "images": [
+        {
+          "path": "digits/6/16.png",
+          "label": "Sample #16",
+          "source_number": 16
+        }
+      ]
+    },
+    "7": {
+      "id": "7",
+      "character": "7",
+      "name": "Digit 7",
+      "category": "digit",
+      "folder": "digits/7",
+      "images": [
+        {
+          "path": "digits/7/16.png",
+          "label": "Sample #16",
+          "source_number": 16
+        },
+        {
+          "path": "digits/7/222.png",
+          "label": "Sample #222",
+          "source_number": 222
+        }
+      ]
+    },
+    "8": {
+      "id": "8",
+      "character": "8",
+      "name": "Digit 8",
+      "category": "digit",
+      "folder": "digits/8",
+      "images": [
+        {
+          "path": "digits/8/10.png",
+          "label": "Sample #10",
+          "source_number": 10
+        }
+      ]
+    },
+    "9": {
+      "id": "9",
+      "character": "9",
+      "name": "Digit 9",
+      "category": "digit",
+      "folder": "digits/9",
+      "images": [
+        {
+          "path": "digits/9/115.png",
+          "label": "Sample #115",
+          "source_number": 115
+        }
+      ]
+    },
+    "A": {
+      "id": "A",
+      "character": "A",
+      "name": "Uppercase A",
+      "category": "uppercase",
+      "folder": "uppercase/A",
+      "images": [
+        {
+          "path": "uppercase/A/3.png",
+          "label": "Sample #3",
+          "source_number": 3
+        }
+      ]
+    },
+    "B": {
+      "id": "B",
+      "character": "B",
+      "name": "Uppercase B",
+      "category": "uppercase",
+      "folder": "uppercase/B",
+      "images": [
+        {
+          "path": "uppercase/B/110.png",
+          "label": "Sample #110",
+          "source_number": 110
+        }
+      ]
+    },
+    "C": {
+      "id": "C",
+      "character": "C",
+      "name": "Uppercase C",
+      "category": "uppercase",
+      "folder": "uppercase/C",
+      "images": [
+        {
+          "path": "uppercase/C/1.png",
+          "label": "Sample #1",
+          "source_number": 1
+        }
+      ]
+    },
+    "D": {
+      "id": "D",
+      "character": "D",
+      "name": "Uppercase D",
+      "category": "uppercase",
+      "folder": "uppercase/D",
+      "images": [
+        {
+          "path": "uppercase/D/209.png",
+          "label": "Sample #209",
+          "source_number": 209
+        }
+      ]
+    },
+    "E": {
+      "id": "E",
+      "character": "E",
+      "name": "Uppercase E",
+      "category": "uppercase",
+      "folder": "uppercase/E",
+      "images": [
+        {
+          "path": "uppercase/E/227.png",
+          "label": "Sample #227",
+          "source_number": 227
+        }
+      ]
+    },
+    "F": {
+      "id": "F",
+      "character": "F",
+      "name": "Uppercase F",
+      "category": "uppercase",
+      "folder": "uppercase/F",
+      "images": [
+        {
+          "path": "uppercase/F/123.png",
+          "label": "Sample #123",
+          "source_number": 123
+        }
+      ]
+    },
+    "G": {
+      "id": "G",
+      "character": "G",
+      "name": "Uppercase G",
+      "category": "uppercase",
+      "folder": "uppercase/G",
+      "images": [
+        {
+          "path": "uppercase/G/4.png",
+          "label": "Sample #4",
+          "source_number": 4
+        }
+      ]
+    },
+    "H": {
+      "id": "H",
+      "character": "H",
+      "name": "Uppercase H",
+      "category": "uppercase",
+      "folder": "uppercase/H",
+      "images": [
+        {
+          "path": "uppercase/H/115.png",
+          "label": "Sample #115",
+          "source_number": 115
+        }
+      ]
+    },
+    "I": {
+      "id": "I",
+      "character": "I",
+      "name": "Uppercase I",
+      "category": "uppercase",
+      "folder": "uppercase/I",
+      "images": [
+        {
+          "path": "uppercase/I/127.png",
+          "label": "Sample #127",
+          "source_number": 127
+        }
+      ]
+    },
+    "J": {
+      "id": "J",
+      "character": "J",
+      "name": "Uppercase J",
+      "category": "uppercase",
+      "folder": "uppercase/J",
+      "images": [
+        {
+          "path": "uppercase/J/208.png",
+          "label": "Sample #208",
+          "source_number": 208
+        }
+      ]
+    },
+    "K": {
+      "id": "K",
+      "character": "K",
+      "name": "Uppercase K",
+      "category": "uppercase",
+      "folder": "uppercase/K",
+      "images": [
+        {
+          "path": "uppercase/K/1.png",
+          "label": "Sample #1",
+          "source_number": 1
+        }
+      ]
+    },
+    "L": {
+      "id": "L",
+      "character": "L",
+      "name": "Uppercase L",
+      "category": "uppercase",
+      "folder": "uppercase/L",
+      "images": [
+        {
+          "path": "uppercase/L/217.png",
+          "label": "Sample #217",
+          "source_number": 217
+        }
+      ]
+    },
+    "M": {
+      "id": "M",
+      "character": "M",
+      "name": "Uppercase M",
+      "category": "uppercase",
+      "folder": "uppercase/M",
+      "images": [
+        {
+          "path": "uppercase/M/221.png",
+          "label": "Sample #221",
+          "source_number": 221
+        }
+      ]
+    },
+    "N": {
+      "id": "N",
+      "character": "N",
+      "name": "Uppercase N",
+      "category": "uppercase",
+      "folder": "uppercase/N",
+      "images": [
+        {
+          "path": "uppercase/N/108.png",
+          "label": "Sample #108",
+          "source_number": 108
+        }
+      ]
+    },
+    "O": {
+      "id": "O",
+      "character": "O",
+      "name": "Uppercase O",
+      "category": "uppercase",
+      "folder": "uppercase/O",
+      "images": [
+        {
+          "path": "uppercase/O/109.png",
+          "label": "Sample #109",
+          "source_number": 109
+        }
+      ]
+    },
+    "P": {
+      "id": "P",
+      "character": "P",
+      "name": "Uppercase P",
+      "category": "uppercase",
+      "folder": "uppercase/P",
+      "images": [
+        {
+          "path": "uppercase/P/121.png",
+          "label": "Sample #121",
+          "source_number": 121
+        }
+      ]
+    },
+    "Q": {
+      "id": "Q",
+      "character": "Q",
+      "name": "Uppercase Q",
+      "category": "uppercase",
+      "folder": "uppercase/Q",
+      "images": [
+        {
+          "path": "uppercase/Q/117.png",
+          "label": "Sample #117",
+          "source_number": 117
+        }
+      ]
+    },
+    "R": {
+      "id": "R",
+      "character": "R",
+      "name": "Uppercase R",
+      "category": "uppercase",
+      "folder": "uppercase/R",
+      "images": [
+        {
+          "path": "uppercase/R/210.png",
+          "label": "Sample #210",
+          "source_number": 210
+        }
+      ]
+    },
+    "S": {
+      "id": "S",
+      "character": "S",
+      "name": "Uppercase S",
+      "category": "uppercase",
+      "folder": "uppercase/S",
+      "images": [
+        {
+          "path": "uppercase/S/214.png",
+          "label": "Sample #214",
+          "source_number": 214
+        }
+      ]
+    },
+    "T": {
+      "id": "T",
+      "character": "T",
+      "name": "Uppercase T",
+      "category": "uppercase",
+      "folder": "uppercase/T",
+      "images": [
+        {
+          "path": "uppercase/T/223.png",
+          "label": "Sample #223",
+          "source_number": 223
+        }
+      ]
+    },
+    "U": {
+      "id": "U",
+      "character": "U",
+      "name": "Uppercase U",
+      "category": "uppercase",
+      "folder": "uppercase/U",
+      "images": [
+        {
+          "path": "uppercase/U/113.png",
+          "label": "Sample #113",
+          "source_number": 113
+        }
+      ]
+    },
+    "V": {
+      "id": "V",
+      "character": "V",
+      "name": "Uppercase V",
+      "category": "uppercase",
+      "folder": "uppercase/V",
+      "images": [
+        {
+          "path": "uppercase/V/103.png",
+          "label": "Sample #103",
+          "source_number": 103
+        }
+      ]
+    },
+    "W": {
+      "id": "W",
+      "character": "W",
+      "name": "Uppercase W",
+      "category": "uppercase",
+      "folder": "uppercase/W",
+      "images": [
+        {
+          "path": "uppercase/W/246.png",
+          "label": "Sample #246",
+          "source_number": 246
+        }
+      ]
+    },
+    "X": {
+      "id": "X",
+      "character": "X",
+      "name": "Uppercase X",
+      "category": "uppercase",
+      "folder": "uppercase/X",
+      "images": [
+        {
+          "path": "uppercase/X/109.png",
+          "label": "Sample #109",
+          "source_number": 109
+        }
+      ]
+    },
+    "Y": {
+      "id": "Y",
+      "character": "Y",
+      "name": "Uppercase Y",
+      "category": "uppercase",
+      "folder": "uppercase/Y",
+      "images": [
+        {
+          "path": "uppercase/Y/4.png",
+          "label": "Sample #4",
+          "source_number": 4
+        },
+        {
+          "path": "uppercase/Y/227.png",
+          "label": "Sample #227",
+          "source_number": 227
+        }
+      ]
+    },
+    "Z": {
+      "id": "Z",
+      "character": "Z",
+      "name": "Uppercase Z",
+      "category": "uppercase",
+      "folder": "uppercase/Z",
+      "images": [
+        {
+          "path": "uppercase/Z/115.png",
+          "label": "Sample #115",
+          "source_number": 115
+        }
+      ]
+    },
+    "a": {
+      "id": "a",
+      "character": "a",
+      "name": "Lowercase a",
+      "category": "lowercase",
+      "folder": "lowercase/a",
+      "images": [
+        {
+          "path": "lowercase/a/114.png",
+          "label": "Sample #114",
+          "source_number": 114
+        }
+      ]
+    },
+    "b": {
+      "id": "b",
+      "character": "b",
+      "name": "Lowercase b",
+      "category": "lowercase",
+      "folder": "lowercase/b",
+      "images": [
+        {
+          "path": "lowercase/b/210.png",
+          "label": "Sample #210",
+          "source_number": 210
+        }
+      ]
+    },
+    "c": {
+      "id": "c",
+      "character": "c",
+      "name": "Lowercase c",
+      "category": "lowercase",
+      "folder": "lowercase/c",
+      "images": [
+        {
+          "path": "lowercase/c/116.png",
+          "label": "Sample #116",
+          "source_number": 116
+        }
+      ]
+    },
+    "d": {
+      "id": "d",
+      "character": "d",
+      "name": "Lowercase d",
+      "category": "lowercase",
+      "folder": "lowercase/d",
+      "images": [
+        {
+          "path": "lowercase/d/215.png",
+          "label": "Sample #215",
+          "source_number": 215
+        }
+      ]
+    },
+    "e": {
+      "id": "e",
+      "character": "e",
+      "name": "Lowercase e",
+      "category": "lowercase",
+      "folder": "lowercase/e",
+      "images": [
+        {
+          "path": "lowercase/e/4.png",
+          "label": "Sample #4",
+          "source_number": 4
+        }
+      ]
+    },
+    "f": {
+      "id": "f",
+      "character": "f",
+      "name": "Lowercase f",
+      "category": "lowercase",
+      "folder": "lowercase/f",
+      "images": [
+        {
+          "path": "lowercase/f/111.png",
+          "label": "Sample #111",
+          "source_number": 111
+        },
+        {
+          "path": "lowercase/f/10.png",
+          "label": "Sample #10",
+          "source_number": 10
+        }
+      ]
+    },
+    "g": {
+      "id": "g",
+      "character": "g",
+      "name": "Lowercase g",
+      "category": "lowercase",
+      "folder": "lowercase/g",
+      "images": [
+        {
+          "path": "lowercase/g/9.png",
+          "label": "Sample #9",
+          "source_number": 9
+        }
+      ]
+    },
+    "h": {
+      "id": "h",
+      "character": "h",
+      "name": "Lowercase h",
+      "category": "lowercase",
+      "folder": "lowercase/h",
+      "images": [
+        {
+          "path": "lowercase/h/8.png",
+          "label": "Sample #8",
+          "source_number": 8
+        }
+      ]
+    },
+    "i": {
+      "id": "i",
+      "character": "i",
+      "name": "Lowercase i",
+      "category": "lowercase",
+      "folder": "lowercase/i",
+      "images": [
+        {
+          "path": "lowercase/i/215.png",
+          "label": "Sample #215",
+          "source_number": 215
+        },
+        {
+          "path": "lowercase/i/204.png",
+          "label": "Sample #204",
+          "source_number": 204
+        }
+      ]
+    },
+    "j": {
+      "id": "j",
+      "character": "j",
+      "name": "Lowercase j",
+      "category": "lowercase",
+      "folder": "lowercase/j",
+      "images": [
+        {
+          "path": "lowercase/j/27.png",
+          "label": "Sample #27",
+          "source_number": 27
+        },
+        {
+          "path": "lowercase/j/116.png",
+          "label": "Sample #116",
+          "source_number": 116
+        },
+        {
+          "path": "lowercase/j/206.png",
+          "label": "Sample #206",
+          "source_number": 206
+        }
+      ]
+    },
+    "k": {
+      "id": "k",
+      "character": "k",
+      "name": "Lowercase k",
+      "category": "lowercase",
+      "folder": "lowercase/k",
+      "images": [
+        {
+          "path": "lowercase/k/15.png",
+          "label": "Sample #15",
+          "source_number": 15
+        }
+      ]
+    },
+    "l": {
+      "id": "l",
+      "character": "l",
+      "name": "Lowercase l",
+      "category": "lowercase",
+      "folder": "lowercase/l",
+      "images": [
+        {
+          "path": "lowercase/l/211.png",
+          "label": "Sample #211",
+          "source_number": 211
+        }
+      ]
+    },
+    "m": {
+      "id": "m",
+      "character": "m",
+      "name": "Lowercase m",
+      "category": "lowercase",
+      "folder": "lowercase/m",
+      "images": [
+        {
+          "path": "lowercase/m/9.png",
+          "label": "Sample #9",
+          "source_number": 9
+        },
+        {
+          "path": "lowercase/m/207.png",
+          "label": "Sample #207",
+          "source_number": 207
+        }
+      ]
+    },
+    "n": {
+      "id": "n",
+      "character": "n",
+      "name": "Lowercase n",
+      "category": "lowercase",
+      "folder": "lowercase/n",
+      "images": [
+        {
+          "path": "lowercase/n/127.png",
+          "label": "Sample #127",
+          "source_number": 127
+        }
+      ]
+    },
+    "o": {
+      "id": "o",
+      "character": "o",
+      "name": "Lowercase o",
+      "category": "lowercase",
+      "folder": "lowercase/o",
+      "images": [
+        {
+          "path": "lowercase/o/221.png",
+          "label": "Sample #221",
+          "source_number": 221
+        },
+        {
+          "path": "lowercase/o/14.png",
+          "label": "Sample #14",
+          "source_number": 14
+        }
+      ]
+    },
+    "p": {
+      "id": "p",
+      "character": "p",
+      "name": "Lowercase p",
+      "category": "lowercase",
+      "folder": "lowercase/p",
+      "images": [
+        {
+          "path": "lowercase/p/210.png",
+          "label": "Sample #210",
+          "source_number": 210
+        }
+      ]
+    },
+    "q": {
+      "id": "q",
+      "character": "q",
+      "name": "Lowercase q",
+      "category": "lowercase",
+      "folder": "lowercase/q",
+      "images": [
+        {
+          "path": "lowercase/q/115.png",
+          "label": "Sample #115",
+          "source_number": 115
+        }
+      ]
+    },
+    "r": {
+      "id": "r",
+      "character": "r",
+      "name": "Lowercase r",
+      "category": "lowercase",
+      "folder": "lowercase/r",
+      "images": [
+        {
+          "path": "lowercase/r/9.png",
+          "label": "Sample #9",
+          "source_number": 9
+        }
+      ]
+    },
+    "s": {
+      "id": "s",
+      "character": "s",
+      "name": "Lowercase s",
+      "category": "lowercase",
+      "folder": "lowercase/s",
+      "images": [
+        {
+          "path": "lowercase/s/220.png",
+          "label": "Sample #220",
+          "source_number": 220
+        }
+      ]
+    },
+    "t": {
+      "id": "t",
+      "character": "t",
+      "name": "Lowercase t",
+      "category": "lowercase",
+      "folder": "lowercase/t",
+      "images": [
+        {
+          "path": "lowercase/t/210.png",
+          "label": "Sample #210",
+          "source_number": 210
+        }
+      ]
+    },
+    "u": {
+      "id": "u",
+      "character": "u",
+      "name": "Lowercase u",
+      "category": "lowercase",
+      "folder": "lowercase/u",
+      "images": [
+        {
+          "path": "lowercase/u/52.png",
+          "label": "Sample #52",
+          "source_number": 52
+        }
+      ]
+    },
+    "v": {
+      "id": "v",
+      "character": "v",
+      "name": "Lowercase v",
+      "category": "lowercase",
+      "folder": "lowercase/v",
+      "images": [
+        {
+          "path": "lowercase/v/17.png",
+          "label": "Sample #17",
+          "source_number": 17
+        }
+      ]
+    },
+    "w": {
+      "id": "w",
+      "character": "w",
+      "name": "Lowercase w",
+      "category": "lowercase",
+      "folder": "lowercase/w",
+      "images": [
+        {
+          "path": "lowercase/w/215.png",
+          "label": "Sample #215",
+          "source_number": 215
+        },
+        {
+          "path": "lowercase/w/110.png",
+          "label": "Sample #110",
+          "source_number": 110
+        }
+      ]
+    },
+    "x": {
+      "id": "x",
+      "character": "x",
+      "name": "Lowercase x",
+      "category": "lowercase",
+      "folder": "lowercase/x",
+      "images": [
+        {
+          "path": "lowercase/x/227.png",
+          "label": "Sample #227",
+          "source_number": 227
+        }
+      ]
+    },
+    "y": {
+      "id": "y",
+      "character": "y",
+      "name": "Lowercase y",
+      "category": "lowercase",
+      "folder": "lowercase/y",
+      "images": [
+        {
+          "path": "lowercase/y/115.png",
+          "label": "Sample #115",
+          "source_number": 115
+        }
+      ]
+    },
+    "z": {
+      "id": "z",
+      "character": "z",
+      "name": "Lowercase z",
+      "category": "lowercase",
+      "folder": "lowercase/z",
+      "images": [
+        {
+          "path": "lowercase/z/212.png",
+          "label": "Sample #212",
+          "source_number": 212
+        }
+      ]
+    },
+    "plus": {
+      "id": "plus",
+      "character": "+",
+      "name": "Addition (+)",
+      "category": "operator",
+      "folder": "operators/plus",
+      "images": [
+        {
+          "path": "operators/plus/134.png",
+          "label": "Sample #134",
+          "source_number": 134
+        }
+      ]
+    },
+    "minus": {
+      "id": "minus",
+      "character": "-",
+      "name": "Subtraction (-)",
+      "category": "operator",
+      "folder": "operators/minus",
+      "images": [
+        {
+          "path": "operators/minus/171.png",
+          "label": "Sample #171",
+          "source_number": 171
+        }
+      ]
+    },
+    "multiply": {
+      "id": "multiply",
+      "character": "*",
+      "name": "Multiplication (*)",
+      "category": "operator",
+      "folder": "operators/multiply",
+      "images": [
+        {
+          "path": "operators/multiply/28.png",
+          "label": "Sample #28",
+          "source_number": 28
+        },
+        {
+          "path": "operators/multiply/255.png",
+          "label": "Sample #255",
+          "source_number": 255
+        }
+      ]
+    },
+    "divide": {
+      "id": "divide",
+      "character": "÷",
+      "name": "Division (÷)",
+      "category": "operator",
+      "folder": "operators/divide",
+      "images": [
+        {
+          "path": "operators/divide/109.png",
+          "label": "Sample #109",
+          "source_number": 109
+        }
+      ]
+    },
+    "modulo": {
+      "id": "modulo",
+      "character": "%",
+      "name": "Modulo (%)",
+      "category": "operator",
+      "folder": "operators/modulo",
+      "images": [
+        {
+          "path": "operators/modulo/103.png",
+          "label": "Sample #103",
+          "source_number": 103
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,202 @@
+/* ============================================
+   GuessMyText — Global Styles
+   Tailwind CSS v4 + daisyUI v5
+   Matches CaptureMyText's original light theme
+   and design specification, changing only the
+   purple accent (#4F46E5) to light blue (#89CFF0).
+   ============================================ */
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+@import "tailwindcss";
+
+@plugin "daisyui" {
+  themes: guessmytext --default;
+}
+
+:root {
+  /* ========================================================
+     Centralized Primary Accent Color
+     Single theme value for the primary accent color (#89CFF0).
+     Updating --primary-accent automatically updates primary buttons,
+     links, active nav states, focus indicators, badges, and accents.
+     ======================================================== */
+  --primary-accent: #89CFF0;
+  --primary-accent-hover: color-mix(in srgb, var(--primary-accent) 82%, #000000);
+  --primary-accent-light: color-mix(in srgb, var(--primary-accent) 22%, #FFFFFF);
+}
+
+/* ============================================
+   Custom daisyUI Theme
+   Exact palette from CaptureMyText design.md
+   with centralized #89CFF0 light blue accent
+   ============================================ */
+
+@theme {
+  /* Primary palette — centralized from --primary-accent */
+  --color-primary: var(--primary-accent);
+  --color-primary-hover: var(--primary-accent-hover);
+  --color-primary-light: var(--primary-accent-light);
+
+  /* Surfaces — Original CaptureMyText light theme */
+  --color-bg-main: #F8FAFC;
+  --color-surface: #FFFFFF;
+
+  /* Text */
+  --color-text-primary: #0F172A;
+  --color-text-secondary: #475569;
+  --color-text-muted: #64748B;
+
+  /* Borders */
+  --color-border: #E2E8F0;
+
+  /* Semantic colors */
+  --color-success: #16A34A;
+  --color-warning: #D97706;
+  --color-error: #DC2626;
+
+  /* Canvas */
+  --color-canvas-bg: #000000;
+  --color-canvas-brush: #FFFFFF;
+}
+
+@theme {
+  /* daisyUI theme tokens */
+  --color-base-100: #FFFFFF;
+  --color-base-200: #F8FAFC;
+  --color-base-300: #E2E8F0;
+  --color-base-content: #0F172A;
+  --color-primary-content: #0F172A;
+  --color-secondary: #475569;
+  --color-secondary-content: #FFFFFF;
+  --color-accent: var(--primary-accent);
+  --color-accent-content: #0F172A;
+  --color-neutral: #0F172A;
+  --color-neutral-content: #FFFFFF;
+  --color-info: var(--primary-accent);
+  --color-info-content: #0F172A;
+  --color-success-content: #FFFFFF;
+  --color-warning-content: #FFFFFF;
+  --color-error-content: #FFFFFF;
+}
+
+/* ============================================
+   Typography — Inter from Google Fonts
+   ============================================ */
+
+body {
+  font-family: 'Inter', system-ui, -apple-system, sans-serif;
+  background-color: var(--color-bg-main);
+  color: var(--color-text-primary);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* ============================================
+   Scrollbar Styling (subtle)
+   ============================================ */
+
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--color-border);
+  border-radius: 3px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--color-text-muted);
+}
+
+/* ============================================
+   Canvas Horizontal Scrollbar Styling
+   ============================================ */
+.canvas-scroll-container::-webkit-scrollbar {
+  height: 8px;
+}
+
+.canvas-scroll-container::-webkit-scrollbar-track {
+  background: #0f172a;
+  border-radius: 4px;
+}
+
+.canvas-scroll-container::-webkit-scrollbar-thumb {
+  background: #334155;
+  border-radius: 4px;
+}
+
+.canvas-scroll-container::-webkit-scrollbar-thumb:hover {
+  background: var(--primary-accent);
+}
+
+/* ============================================
+   Hide Native Scrollbar Utility
+   ============================================ */
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+
+.no-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+.input,
+.textarea,
+.select,
+.btn {
+  border-radius: 0.75rem !important;
+  /* rounded-xl */
+}
+
+.input,
+.textarea,
+.select {
+  border: 1px solid #CBD5E1 !important;
+  /* Slate-300 border */
+  background-color: var(--color-surface) !important;
+  box-shadow: 0 1px 2px 0 rgb(0 0 0 / 0.05);
+  /* shadow-sm */
+  transition: all 0.2s ease-in-out;
+}
+
+.input:focus,
+.textarea:focus,
+.select:focus {
+  border-color: var(--color-primary) !important;
+  outline: 2px solid var(--color-primary) !important;
+  outline-offset: 1px !important;
+  box-shadow: 0 0 0 3px var(--color-primary-light) !important;
+}
+
+.input:hover:not(:focus),
+.textarea:hover:not(:focus),
+.select:hover:not(:focus) {
+  border-color: #94A3B8 !important;
+  /* Slate-400 */
+}
+
+/* Hide Number Input Arrows (Spinners) */
+input[type="number"]::-webkit-outer-spin-button,
+input[type="number"]::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+input[type="number"] {
+  -moz-appearance: textfield;
+}
+
+/* Hide scrollbar for Chrome, Safari, Edge, and Firefox */
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+.no-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}

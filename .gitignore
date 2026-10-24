@@ -1,0 +1,54 @@
+# =============================================================================
+# GuessMyText — Comprehensive .gitignore
+# =============================================================================
+
+# Byte-compiled / optimized / Python runtime cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Distribution / packaging / build artifacts
+dist/
+build/
+*.egg-info/
+.vite/
+.tmp/
+*.tsbuildinfo
+
+# Node dependencies
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Virtual environments
+venv/
+.venv/
+env/
+.env/
+
+# Environment files (ignore actual .env, keep .env.example committed as template)
+.env
+.env.local
+.env.*.local
+!.env.example
+
+# Unit test / coverage
+.pytest_cache/
+.coverage
+htmlcov/
+
+# IDE / OS files
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Ensure all CNN model checkpoints and label mappings are never ignored
+!backend/models/**
+!backend/static/**
