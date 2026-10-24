@@ -134,7 +134,7 @@ def tokenize(expression_str: str) -> List[Token]:
             i += 1
         elif ch in ('(', ')'):
             raise MathEvaluationError(
-                "Parentheses are not supported in V4 arithmetic expressions.",
+                "Parentheses are not supported in arithmetic expressions.",
                 "unsupported_character"
             )
         elif ch == '=':
@@ -144,7 +144,7 @@ def tokenize(expression_str: str) -> List[Token]:
             )
         else:
             raise MathEvaluationError(
-                f"Unsupported character '{ch}' at position {i}. V4 only supports digits 0-9 and operators +, -, *, ÷, %.",
+                f"Unsupported character '{ch}' at position {i}. Only digits 0-9 and operators +, -, *, ÷, % are supported.",
                 "unsupported_character"
             )
 

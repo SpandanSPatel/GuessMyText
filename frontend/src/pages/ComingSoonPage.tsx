@@ -35,7 +35,7 @@ export function ComingSoonPage({ title, version, description }: ComingSoonPagePr
           <h2 className="text-xl font-semibold text-text-primary mb-1">{title}</h2>
           <p className="text-sm text-text-secondary max-w-md mx-auto">
             {description ||
-              'This recognition module is planned for a future release. Single Character Recognition is available now in V1.'}
+              'This recognition module is planned for a future release. Single Character Recognition is available now.'}
           </p>
         </div>
       </div>

@@ -276,13 +276,13 @@ export function ParagraphRecognitionPage() {
               </h2>
               <div className="flex flex-col gap-2 text-xs md:text-sm text-text-secondary leading-relaxed">
                 <p>
-                  GuessMyText V3 recognizes uppercase letters (A–Z) and digits (0–9) across multiple lines.
+                  GuessMyText recognizes uppercase letters (A–Z) and digits (0–9) across multiple lines.
                 </p>
                 <p>
                   Write characters clearly, leave sufficient space between words, and leave clear vertical space between lines. Connected or overlapping handwriting and touching lines can be harder to segment.
                 </p>
                 <p className="text-text-muted">
-                  Lowercase letters and mathematical operators are not supported in this version.
+                  Lowercase letters and mathematical operators are not supported.
                 </p>
               </div>
             </div>

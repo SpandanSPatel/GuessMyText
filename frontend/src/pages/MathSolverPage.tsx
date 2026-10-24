@@ -241,13 +241,13 @@ export function MathSolverPage() {
               </h2>
               <div className="flex flex-col gap-2 text-xs md:text-sm text-text-secondary leading-relaxed">
                 <p>
-                  GuessMyText V4 recognizes handwritten digits (0–9) and the operators <code className="px-1 py-0.5 rounded bg-base-200 text-text-primary font-mono">+</code>, <code className="px-1 py-0.5 rounded bg-base-200 text-text-primary font-mono">-</code>, <code className="px-1 py-0.5 rounded bg-base-200 text-text-primary font-mono">*</code>, <code className="px-1 py-0.5 rounded bg-base-200 text-text-primary font-mono">÷</code>, and <code className="px-1 py-0.5 rounded bg-base-200 text-text-primary font-mono">%</code>.
+                  GuessMyText recognizes handwritten digits (0–9) and the operators <code className="px-1 py-0.5 rounded bg-base-200 text-text-primary font-mono">+</code>, <code className="px-1 py-0.5 rounded bg-base-200 text-text-primary font-mono">-</code>, <code className="px-1 py-0.5 rounded bg-base-200 text-text-primary font-mono">*</code>, <code className="px-1 py-0.5 rounded bg-base-200 text-text-primary font-mono">÷</code>, and <code className="px-1 py-0.5 rounded bg-base-200 text-text-primary font-mono">%</code>.
                 </p>
                 <p>
                   Write each digit and operator clearly, leaving enough space to distinguish neighboring characters.
                 </p>
                 <p className="text-text-muted">
-                  The <code className="px-1 py-0.5 rounded bg-base-200 text-text-primary font-mono">%</code> symbol represents modulo/remainder, not percentage. Parentheses are not supported in this version.
+                  The <code className="px-1 py-0.5 rounded bg-base-200 text-text-primary font-mono">%</code> symbol represents modulo/remainder, not percentage. Parentheses are not supported.
                 </p>
               </div>
             </div>
@@ -590,7 +590,7 @@ export function MathSolverPage() {
             <div className="flex flex-col gap-1 text-sm">
               <span className="font-semibold text-text-primary">Unsupported Character</span>
               <p className="text-xs text-text-secondary">
-                {result.error_message || 'V4 Math Solver only supports digits 0–9 and +, -, *, ÷, %.'}
+                {result.error_message || 'Math Solver only supports digits 0–9 and +, -, *, ÷, %.'}
               </p>
             </div>
           </div>

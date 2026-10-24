@@ -226,13 +226,13 @@ export function LineRecognitionPage() {
               </h2>
               <div className="flex flex-col gap-2 text-xs md:text-sm text-text-secondary leading-relaxed">
                 <p>
-                  GuessMyText V2 recognizes uppercase letters (A–Z) and digits (0–9).
+                  GuessMyText recognizes uppercase letters (A–Z) and digits (0–9).
                 </p>
                 <p>
                   Write characters clearly and leave sufficient space between words. Connected or overlapping handwriting can be harder to segment and may produce inaccurate results.
                 </p>
                 <p className="text-text-muted">
-                  Lowercase letters and mathematical operators are not supported in this version.
+                  Lowercase letters and mathematical operators are not supported.
                 </p>
               </div>
             </div>
