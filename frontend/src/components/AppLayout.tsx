@@ -4,15 +4,25 @@
  * Reused from CaptureMyText's CollectorLayout.tsx.
  * Same sidebar + main content structure with responsive padding.
  *
- * Nav items: Character Reference
+ * Nav items: Single Character, Line Recognition, Paragraph, Math Solver, Character Reference
  */
 
 import { Outlet } from 'react-router-dom';
-import { BookOpen } from '@phosphor-icons/react';
+import {
+  TextAa,
+  TextAlignLeft,
+  Article,
+  MathOperations,
+  BookOpen,
+} from '@phosphor-icons/react';
 import { Sidebar } from './Sidebar';
 import type { NavItem } from './Sidebar';
 
 const navItems: NavItem[] = [
+  { label: 'Single Character', path: '/v1', icon: TextAa },
+  { label: 'Line Recognition', path: '/v2', icon: TextAlignLeft },
+  { label: 'Paragraph', path: '/v3', icon: Article },
+  { label: 'Math Solver', path: '/v4', icon: MathOperations },
   { label: 'Character Reference', path: '/character-reference', icon: BookOpen },
 ];
 
